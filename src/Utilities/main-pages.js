@@ -10,12 +10,12 @@ export const PAGES = [
       name: "About Us",
     },    
     {
-      id: "vegetable-packs",
+      id: "Vegetables-Packs",
       path: "/category/Vegetables-Packs",
       name: "Vegetable Packs",
      },
      {
-      id: "Fruit-packs",
+      id: "Fruits-Packs",
       path: "/category/Fruits-Packs",
       name: "Fruits Packs",
      }, 

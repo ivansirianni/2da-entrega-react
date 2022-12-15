@@ -21,6 +21,8 @@ const ItemListContainer = () => {
         }
     }, [categoryId])
 
+
+    console.log(categoryId)
     return(
         <div className="listContainer-container">
             <div className="itemList-container">

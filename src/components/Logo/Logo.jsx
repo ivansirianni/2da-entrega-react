@@ -1,4 +1,5 @@
 import logo from "./logo.png";
+import "./logo.css"
 import { Link } from "react-router-dom"
 
 const Logo = () => {

@@ -8,7 +8,7 @@ export default function Navbar(props) {
   const { pages } = props;
 
   return (
-    <nav className="navbar side-bar">      
+    <nav className="navbar">      
       <Link to={`/home`}><Logo /></Link>      
       <ul className="navbar-nav me-auto mb-2 mb-lg-0">
         {pages.map((page) => (

@@ -18,7 +18,7 @@ function App() {
               <Route path='/aboutUs' element={ <AboutUs   />}/>
               <Route path='/contactUs' element={ <ContactUs />}/>     
               <Route path='/' element={ <ItemListContainer  />}/>
-              <Route path='/category/:categoryId' element={ <ItemListContainer  />}/>
+              <Route path="/category/:categoryIid" component={ItemListContainer} />
               <Route path='/item/:itemId' element={ <ItemDetailContainer  />}/>
             </Routes>
           </div>
