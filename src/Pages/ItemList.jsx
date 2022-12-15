@@ -1,3 +1,3 @@
-import ProductList from "../Components/ItemList/ItemList";
+import ItemList from "../Components/ItemList/ItemList";
 
-ProductList()
+ItemList()

@@ -10,11 +10,11 @@ export default function Navbar(props) {
   return (
     <nav className="navbar side-bar">      
       <Link to={`/home`}><Logo /></Link>      
-      <ul className="sidebar__list-items">
+      <ul className="navbar-nav me-auto mb-2 mb-lg-0">
         {pages.map((page) => (
-          <li key={`${page.id}-page`}>
+          <li className="mx-5" key={`${page.id}-page`}>
             <NavLink
-              to={page.id}
+              to={page.path}
               className={({ isActive }) =>
                 isActive ? "link is-active" : "link"
               }

@@ -15,9 +15,9 @@ export const PAGES = [
       name: "Vegetable Packs",
      },
      {
-      id: "bebidas",
+      id: "Fruit-packs",
       path: "/category/Fruits-Packs",
-      name: "Bebidas",
+      name: "Fruits Packs",
      }, 
      {
       id: "contact",

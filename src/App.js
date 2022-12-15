@@ -7,20 +7,21 @@ import Home from "./Pages/Home"
 import AboutUs from "./Pages/AboutUs"
 import ContactUs from "./Pages/Contact"
 
+
 function App() {
   return (
-    <div className="App bg-black alert alert-info white-link">  
-            
-        <Layout />
-        <Routes>
-           <Route path="/home" element={ <Home />} />      
-           <Route path='/aboutUs' element={ <AboutUs   />}/>
-           <Route path='/contactUs' element={ <ContactUs />}/>     
-           <Route path='/' element={ <ItemListContainer  />}/>
-           <Route path='/category/:categoryId' element={ <ItemListContainer  />}/>
-           <Route path='/item/:itemId' element={ <ItemDetailContainer  />}/>
-        </Routes>
-    </div>
+      
+          <div>         
+            <Layout />
+            <Routes>
+              <Route path="/home" element={ <Home />} />      
+              <Route path='/aboutUs' element={ <AboutUs   />}/>
+              <Route path='/contactUs' element={ <ContactUs />}/>     
+              <Route path='/' element={ <ItemListContainer  />}/>
+              <Route path='/category/:categoryId' element={ <ItemListContainer  />}/>
+              <Route path='/item/:itemId' element={ <ItemDetailContainer  />}/>
+            </Routes>
+          </div>
   );
 }
 

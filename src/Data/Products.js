@@ -54,7 +54,7 @@ export const getProducts = () => {
 };
 
 export const getProductsByCategory = (category) =>{
-    return new Promise ((response, reject) => {
+    return new Promise ((response) => {
 
         const items = products.filter(product => product.type === category);
         setTimeout(() => {
@@ -64,7 +64,7 @@ export const getProductsByCategory = (category) =>{
 };
 
 export const getProduct = (id) =>{
-    return new Promise ((response, reject) => {
+    return new Promise ((response) => {
         setTimeout(() => {
             response(products.find((item) => item.id === parseInt(id)))
         }, 2000);
